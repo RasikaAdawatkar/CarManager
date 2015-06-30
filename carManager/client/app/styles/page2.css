@@ -1,0 +1,162 @@
+
+ #top2{
+		  /*height:140px;*/
+     
+		  background:linear-gradient(to bottom,#4d4d4d,#000000);
+	    }
+.h1{
+	   padding:80px 0px 10px 20px;
+     font-size:30px;
+     color:#ffffff;
+     float:right;
+      }
+      #nav2{
+      	margin-left:25px;
+      	padding:100px 0px 0px 0px;
+      }
+    .phaselabel{
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin: 30px 0px 5px 50px;
+    clear: both;
+    float: left;
+    background-color:#336699;
+     }
+ .newcolor{
+          background-color:#990033;
+          border-color:#353535;
+         }   
+  .rightpg2{
+ /* background:linear-gradient(to bottom, #303030,#c1c1c1);*/
+
+  width: 61%;
+  height: 450px;
+  float: left;
+  text-align: center;
+  margin-left: 85px;
+  margin-top: -43px;
+  border-radius: 6px;
+}
+.divforfooter2{
+    height: 50px;
+    width: 1170px;
+    clear:both;
+    float: left;
+    text-align:center;
+    word-spacing:25px;
+    color:#3399FF;
+    padding: 3px;
+    /*margin-top:10px;*/
+} 
+
+.division1{
+width: 1070px;
+float: left;
+margin:-9px 5px 0px 100px;
+border-color: #282828;
+}
+.cardetails{
+  color:#282828; 
+  float:left;
+  clear:both;
+  margin:110px 5px 0px 15px;
+}
+.completedform1{
+/*background:linear-gradient(to bottom, #303030,#c1c1c1);*/
+height: 265px;
+width: 200px;
+ background-image:url("../images/wood.jpg");
+margin: 15px 30px 30px 60px;
+
+}
+.glypg2{
+  float: right;
+margin-right: -523px;
+margin-top: -60px;
+}
+.searchpg2{
+float: right;
+margin-right: -535px;
+margin-top: -67px;
+}
+.modal-body{
+  height:320px;
+}
+#formwellmodal{
+ background:linear-gradient(to bottom,#303030,#c1c1c1);
+width: 100%;
+height:104%;
+float: left;
+text-align: center;
+margin-top: -6px;
+}
+.fontsizeformodal{
+  font-size:13px;
+}
+.fonthead{
+  font-size:18px;
+  text-align:center;
+}
+.changetablesizemodal{
+  margin-top:11px;
+}
+.headingmodal{
+  width:17%;
+    height: 47px;
+    background-color: #336699;
+    float: right;
+        margin: -24px;
+    border:#000000;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.phmodal{
+ color:#ffffff;
+  text-align:center;
+  padding:5px;
+  font-size:12px;
+}
+#clsbtn{
+  background-color: #666699;
+height: 30px;
+width: 55px;
+padding:5px;
+}
+
+ #belowpg2{
+  background-image:url("../images/wood.jpg") ;
+ /*margin:0px;height:auto;*/
+  background-size:1200px 1170px !important;
+  background-repeat: no-repeat;
+
+ }   
+/* .ui-autocomplete{
+z-index: 1 ;
+top: 189px ;
+left: 1011px; 
+width: 189px ;
+}
+*/.table-striped {
+  background-color:#9B9BAB;
+}
+.modal-content{
+ background-color: #9B9BAB; 
+}
+.changetop{
+  top:189px !important;
+}
+.ui-autocomplete2
+{
+  z-index: 1 !important;
+top: 270px !important; 
+left: 1009px !important; 
+width: 189px !important;
+}

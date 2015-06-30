@@ -1,0 +1,60 @@
+<!-- <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li ng-repeat="item in arrItems" ng-click="removeClicked($index)" class="dropDownList">{{item.color}}</a></li>    
+  </ul>
+</div>
+
+
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li ng-repeat="item in arrItems" ng-click="removeClicked($index)" class="dropDownList">{{item.color}}</a></li>    
+  </ul>
+</div>
+
+
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li ng-repeat="item in arrItems" ng-click="removeClicked($index)" class="dropDownList">{{item.color}}</a></li>    
+  </ul>
+</div>
+
+
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li ng-repeat="item in arrItems" ng-click="removeClicked($index)" class="dropDownList">{{item.color}}</a></li>    
+  </ul>
+</div>
+
+ -->
+ 
+<select ng-model="myColor1" ng-options=" items.id as items.color for items in arrItems" ng-change="removeClicked(myColor1,0)" class="dropDownList">
+</select>
+<br><br>
+
+<select ng-model="myColor2" ng-options="items.id as items.color for items in arrItems" ng-change="removeClicked(myColor2,1)" class="dropDownList">
+</select>
+<br><br>
+
+<select ng-model="myColor3" ng-options="items.id as items.color for items in arrItems" ng-change="removeClicked(myColor3,2)" class="dropDownList">
+</select>
+<br><br>
+
+<select ng-model="myColor4" ng-options="items.id as items.color for items in arrItems" ng-change="removeClicked(myColor4,3)" class="dropDownList">
+</select>
+<br><br>
+
+<button type="button" ng-click="checkForDuality()">submit</button>
+
+

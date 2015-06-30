@@ -1,0 +1,124 @@
+.hubDataDiv1{
+height: 13%;
+width: 100%;
+background-color: #f2f2f2;
+padding-left: 46px;
+padding-top: 7px;
+
+}
+.hubDataDiv2{
+height: 26%;
+width: 100%;
+background-color: #f2f2f2;
+margin-top:2px;
+padding:19px;
+padding-left:0px;
+}
+.hubDataDiv3{
+height: 60.5%;
+width: 100%;
+background-color: #f2f2f2;	
+margin-top:2px;
+}
+.onTheRightside{
+float: right;
+background-color: #f2f2f2;
+height: 100%;
+width: 25%;
+}
+.hubDataTable1{
+	width:86%;
+}
+.hubDataTable2{
+height:100%;
+width:100%;
+background-color: #f2f2f2;
+}
+.line1{
+height: 22%;
+width: 100%;
+background-color: #f2f2f2;
+padding: 10px;
+padding-left: 48px;
+}
+.line2{
+height: 17%;
+width: 100%;
+background-color: #f2f2f2;
+padding-left: 48px;
+
+}
+.margin
+{
+	margin-top:2.9%;
+}
+.property{
+	float:left;
+}
+.dots{
+	float:left;
+}
+.value{
+width: 15%;
+float: left;
+text-align: right;
+margin-left:5px;
+}
+.compareChart{
+/*background-color: #000;*/
+width: 75%;
+float:left;
+}
+.line1onTheRight{
+	height: 23%;
+width: 100%;
+background-color: #f2f2f2;
+}
+.line2onTheRight{
+height: 25%;
+width: 100%;
+background-color: #000;
+margin-top: 2px
+}
+.lft{
+height: 100%;
+width: 50%;
+background-color: #f2f2f2;
+padding-top: 40px;
+padding-left: 35px;
+float: left;
+}
+.rght{
+height: 100%;
+width: 50%;
+background-color: #f2f2f2;
+padding-top: 40px;
+padding-left: 2px;
+float: right;
+font-size: 10px;
+}
+.loadChart1{
+width: 50%;
+height: 200px;
+background-color: #f2f2f2;
+float: left;
+}
+.loadChart2{
+width: 44%;
+height: 200px;
+background-color: #999966;
+float: right;
+
+}
+.loadChart3{
+background-color: #f2f2f2;
+height: 199px;
+width: 50%;
+float: left;
+}
+.loadChart4{
+height: 199px;
+width: 44%;
+background-color: #3399ff;
+float: right;
+}

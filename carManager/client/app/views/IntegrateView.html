@@ -1,0 +1,131 @@
+
+    <div  class="container divouter" >
+		<div class="container divinner">
+
+			<div class="top1"></div>
+			<div class="top2">
+				<button type="button" class="btn btn-primary btn1pg4" ng-click="loadOnclick=4">Back</button>
+				<button type="button" class="btn btn-primary btn2pg4" ng-click="changeView()"></button>
+				<button type="button" style="opacity:0.2"class="btn btn-primary btn2pg4"></button>
+				<div class="inputs">
+					<div class="firstInput">
+						<form>
+							<input type="checkbox" class="chkbx" >
+						</form>
+						<div class="circle1" ng-click="loadOnclick=1"></div>
+						Hubs
+                       </div>
+                    		<div class="partition1"></div>
+                    
+                    <div class="firstInput">
+						<form>
+							<input type="checkbox" class="chkbx">
+						</form>
+                        	<div  class="circle1 circle2"  ng-click="loadOnclick=2" ></div>
+                        Depots
+                    </div>
+
+                    		<div class="partition1"></div>
+
+                    <div class="firstInput">
+						<form>
+							<input type="checkbox" class="chkbx">
+						 </form>
+						 <div class="circle1 circle3"  ng-click="loadOnclick=3"></div>	
+							Districts
+                    </div>   
+                    
+				</div>
+			</div>
+
+			<div class="top3">
+				<div class="lefthalf">
+					
+					<div class="includeMap"ng-show="{{showDefault}}"></div>
+				</div>	
+
+				<div class="righthalf">
+					<div class="topInLayerOne">                                                         <!-- CSS in overview css -->
+                        <span class="location">Belgium</span><span class="numberOfHubs">50 Hubs</span>
+                            <div class="btn-group dropdwn" ng-click="hideView()">
+  
+                            <span class="caret"></span>
+
+                            
+                                </div> 
+                                    </div>
+					<div class="includeChart" ng-include="loadview()"></div>
+				</div>
+					</div>		<!-- close top3 -->
+					<!-- <div class="dataDiv" ng-hide="false">     
+						<div id="dataCarousel" class="carousel slide" data-ride="carousel" data-interval="false" >
+						 
+						  <ol class="carousel-indicators" style="margin-left:-54px">
+						    <li data-target="#dataCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#dataCarousel" data-slide-to="1"></li>
+						    <li data-target="#dataCarousel" data-slide-to="2"></li>
+						  </ol>
+
+						  
+						  <div class="carousel-inner">
+						    <div class="item active" ng-include="'views/pair1.html'" >
+						    
+						      <div class="carousel-caption" style="color:#000">
+						       deep dive
+						      </div>
+						    </div>
+						    <div class="item" ng-include="'views/pair2.html'">
+						    
+						    </div>
+						    
+						  </div>
+
+						
+						  <a class="left carousel-control leftShift" href="#dataCarousel" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						  </a>
+						  <a class="right carousel-control rightShift" href="#dataCarousel" role="button" data-slide="next" style="margin-right:3px">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						  </a>
+						</div>		
+			        </div>		 -->
+			<!--  <div  class="container divouterbottom" ng-hide="false">
+		<div class="container divinnerbottom">
+			<div id="dataCarousel" class="carousel slide" data-ride="carousel" data-interval="false" >
+						  
+						  <ol class="carousel-indicators" style="margin-left:-54px">
+						    <li data-target="#dataCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#dataCarousel" data-slide-to="1"></li>
+						    <li data-target="#dataCarousel" data-slide-to="2"></li>
+						  </ol>
+
+						  
+						  <div class="carousel-inner">
+						    <div class="item active" ng-include="'views/pair1.html'" >
+						    
+						    </div>
+						   ..........
+						   
+						    </div>
+						    
+						  </div>
+
+						  <a class="left carousel-control leftShift" href="#dataCarousel" role="button" data-slide="prev" style="margin-left: 80px;margin-top: 935px;">
+
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						  </a>
+						  <a class="right carousel-control rightShift" href="#dataCarousel" role="button" data-slide="next" style="margin-right: 68px;margin-top: 935px;">
+
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						  </a>
+						</div>	
+
+
+
+		</div>
+	</div> -->
+
+
+
+		</div>
+	</div>

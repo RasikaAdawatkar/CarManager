@@ -1,0 +1,43 @@
+<div class="well well-lg" id="formwell" ng-controller="viewformController" >
+	<label class="heading">
+		<p class="ph">{{carName|uppercase}}<br>PHASE 2</p>
+
+	</label>
+
+<table class="table table-striped">
+   <caption class="viewdetails">ASSEMBLING</caption>
+   <thead >
+      <tr>
+         <th style="text-align:center">Specifications</th>
+         <th style="text-align:center">Details</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Brakes</td>
+         <td>{{car.brakes}}</td>
+      </tr>
+      <tr>
+         <td>Suspension</td>
+         <td>{{car.suspension}}</td>
+      </tr>
+      <tr>
+         <td>Steering</td>
+         <td>{{car.steering}}</td>
+      </tr>
+       <tr>
+         <td>Wheels</td>
+         <td>{{car.wheels}}</td>
+      </tr>
+       <tr>
+         <td>Tire Size</td>
+         <td>{{car.tire_size}}</td>
+      </tr>
+       <tr>
+         <td>Range</td>
+         <td>{{car.range}}</td>
+      </tr>
+</tbody>
+</table>
+
+</div>

@@ -1,0 +1,26 @@
+.maincontainer{
+background-color: #f2f2f2;
+width: 850px;
+height: 330px;
+margin-top: 233px;
+margin-left: 220px;
+}
+.leftChart{
+background-color: #f2f2f2;
+width: 40%;
+height: 85%;
+float: left;
+margin-top: 19px;
+}
+.rightChart{
+background-color: #f2f2f2;
+width: 40%;
+height: 85%;
+float: right;
+margin-top: 19px;
+}
+.chartHeading{
+margin-left: 55px;
+font-size: 20px;
+}
+

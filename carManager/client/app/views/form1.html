@@ -1,0 +1,92 @@
+
+
+
+<div class="well well-lg" id="formwell" ng-controller="formcontroller" >
+	<label class="heading">
+		<p class="ph">{{carName|uppercase}}<br>PHASE 1</p>
+  </label>
+
+
+
+<form role="form" class="formouter" name="myForm">
+  <div class="form-group" >
+    <label  class=" floatleft inputlabel">Engine</label>
+    <input type="text" class="form-control"  ng-model="car.engine" placeholder="Enter the data"  name="lastName" ng-minlength="2">
+     <span class="error" ng-show="myForm.lastName.$error.minlength" style="color:red">
+      Too short!</span>
+  </div>
+
+  <div class="form-group">
+    <label  class=" floatleft inputlabel ">Battery</label>
+    <input type="text" class="form-control" ng-model="car.battery" placeholder="Enter the data" >
+    
+  </div>
+
+  <div class="form-group">
+    <label  class=" floatleft inputlabel">Charger</label>
+    <input type="text" class="form-control"  ng-model="car.charger" placeholder="Enter the data">
+  </div>
+
+  <div class="form-group floatright input4">
+    <label  class=" floatleft inputlabel" >Drive</label>
+    <input type="text" class="form-control"  ng-model="car.drive" placeholder="Enter the data">
+  </div>
+
+   <div class="form-group floatright input5" >
+    <label  class=" floatleft inputlabel">Chassis</label>
+    <input type="text" class="form-control" ng-model="car.chassis" placeholder="Enter the data">
+  </div>
+
+    <div class="form-group floatright input6" >
+    <label  class=" floatleft inputlabel">Power</label>
+    <input type="text" class="form-control"  ng-model="car.power" placeholder="Enter the data" >
+
+  </div>
+
+  <div class="form-group">
+    <label  class=" floatleft inputlabel " >Type</label>
+    <input type="text" class="form-control"  ng-model="car.type" placeholder="Enter the data" required name="name">
+   <p ng-show="myForm.name.$invalid && !myForm.name.$pristine" class="help-block" style="color:red ;margin-left:107px">**Type is required!!!</p>
+  </div>
+
+  <div class="form-group floatright input8" >
+    <label  class=" floatleft inputlabel">Color</label>
+    <input type="text" class="form-control"    ng-model="car.color" placeholder="Enter the data" name="colorName" ng-minlength="3"  >
+   <span class="error" ng-show="myForm.colorName.$error.minlength" style="color:red">
+      Too short!</span>
+  </div>
+
+  <div class="form-group " style="margin-top:1px">
+    <label  class=" floatleft inputlabel">Mileage</label>
+    <input type="text" class="form-control"    ng-model="car.mileage" placeholder="Enter the data" name="name1">
+    <p ng-show="myForm.name1.$invalid && !myForm.name1.$pristine" class="help-block" style="color:red ;margin-left:107px">**Mileage is required!!!</p>
+  </div>
+
+  <div class="form-group floatright input8" >
+    <label  class=" floatleft inputlabel">Price</label>
+    <input type="text" class="form-control" ng-model="car.price" placeholder="Enter the data" >
+    
+  </div>
+
+  <div class="form-group" style="margin-top: 30px;">
+    <label  class=" floatleft inputlabel">File input</label>
+    <input type="file" fileread="img.src" class="floatright fileinput">
+
+ </div>
+
+  <div class="checkbox">
+    <label class=" stylecheckbox">
+      <input type="checkbox" ng-model="checked"> All the details entered are correct
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-default submitform changePosition" ng-click="formSubmit(1)" ng-disabled="!(!!car.engine && !!car.battery  && !!car.charger&&!!car.drive&&!!car.chassis&&!!car.power&&!!car.type&&!!car.color&&!!car.mileage&&!!car.price&&!!img.src&&checked)">
+Submit</button>
+</div>
+</form>
+
+
+
+
+</div>
+

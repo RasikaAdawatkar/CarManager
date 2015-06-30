@@ -1,0 +1,72 @@
+
+<div class="well well-lg" id="formwell" ng-controller="formcontroller" >
+	<label class="heading">
+		<p class="ph">{{carName|uppercase}}<br>PHASE 3</p>
+  </label>
+
+
+
+<form role="form" class="formouter">
+  <div class="form-group" >
+    <label  class=" floatleft inputlabel">Width</label>
+    <input type="text" class="form-control"  ng-model="car.Width" placeholder="Enter the data">
+  </div>
+
+  <div class="form-group">
+    <label  class=" floatleft inputlabel">Length</label>
+    <input type="text" class="form-control"  ng-model="car.Length" placeholder="Enter the data">
+  </div>
+
+  <div class="form-group">
+    <label  class=" floatleft inputlabel">Height</label>
+    <input type="text" class="form-control"  ng-model="car.Height" placeholder="Enter the data">
+  </div>
+
+  <div class="form-group  floatright input4">
+    <label  class=" floatleft inputlabel">Payload</label>
+    <input type="text" class="form-control"  ng-model="car.payload" placeholder="Enter the data">
+  </div>
+
+   <div class="form-group  floatright input5">
+    <label  class=" floatleft inputlabel">Weight</label>
+    <input type="text" class="form-control"  ng-model="car.weight" placeholder="Enter the data">
+  </div>
+
+    <div class="form-group  floatright input6">
+    <label  class=" floatleft inputlabel">Wheelbase</label>
+    <input type="text" class="form-control"  ng-model="car.wheelbase" placeholder="Enter the data">
+  </div>
+
+<!--   <div class="form-group">
+    <label  class=" floatleft inputlabel" >Start Date</label>
+    <input type="text" class="form-control"  ng-model="spec7" placeholder="Start date">
+    <span class="glyphicon glyphicon-calendar cal1"></span>
+  </div>
+
+  <div class="form-group  floatright input8">
+    <label  class=" floatleft inputlabel">End Date</label>
+    <input type="text" class="form-control"  ng-model="spec8" placeholder="End date">
+    <span class="glyphicon glyphicon-calendar cal2"></span>
+  </div> -->
+
+ <!--  <div class="form-group "style="margin-top: 40px;">
+    <label  class=" floatleft inputlabel">File input</label>
+    <input type="file" fileread="img.src" class="floatright fileinput">
+
+ </div> -->
+
+  <div class="checkbox chkbx2">
+    <label class="stylecheckbox">
+      <input type="checkbox" ng-model="checked" > All the details entered are correct
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-default submitform submitform2" ng-click="formSubmit(3)"  ng-disabled="!(!!car.Width && !!car.Length && !!car.Height&&!!car.payload&&!!car.weight&&!!car.wheelbase&&!!checked)">
+Submit</button>
+</div>
+</form>
+
+
+
+
+</div>

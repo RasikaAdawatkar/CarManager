@@ -1,0 +1,15 @@
+  { "seriesList1": [{
+            "name": "John",
+            "data": [1, 0, 1, 0],
+            "color":"#AA4C0C"
+        }, {
+            "name": "Jane",
+            "data": [4, 4, 5, 15],
+            "color":"#53D4E5"
+        }, {
+            "name": " ",
+            "data": [],
+            "enableMouseTracking": false,
+            "color":"#f2f2f2"
+        }]
+    }

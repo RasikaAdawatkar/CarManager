@@ -1,0 +1,69 @@
+.outer1{
+height: 100%;
+width: 100%;
+background-color: #fff;
+}
+
+.topInLayerOne{
+height: 8%;
+width: 100%;
+background-color: #73A7D7;
+padding: 3%;
+}
+.layer2{
+height: 35.2%;
+width: 100%;
+background-color: #f2f2f2;
+margin-top: 2px;
+}
+.layer4{
+height: 21.2%;
+width: 100%;
+background-color: #f2f2f2;
+margin-top: 2px;
+padding: 35px;
+}
+.location{
+color: #fff;
+margin-left: 8%;
+
+}
+.numberOfHubs{
+color: #fff;
+margin-left: 37%;
+}
+.topInLayerTwo{
+height: 15%;
+width: 100%;
+padding: 5%;
+background-color: #f2f2f2;
+}
+.costs{
+	color: #236CB9;
+
+}
+.overall{
+	color: #3D8DC6;
+	font-size: 12px;
+}
+.item{
+		color: #3D8DC6;
+		font-size: 12px;
+}
+.dataTable{
+	width:70%;
+}
+.dataTable2{
+	width: 100%;
+margin-left: 20px;
+}
+.dropdwn{
+float: right;
+margin-right: 35px;
+width: 5%;
+height: 80%;
+background-color: #5C86AC;
+border-radius: 3px;
+border: 1px solid #5C86AC;
+margin-top: 3px;
+}

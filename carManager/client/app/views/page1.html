@@ -1,0 +1,137 @@
+<div class="page" id="page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="top">
+                 <h1>Car Manager</h1>
+
+
+
+     <!--        <div  class="message" ng-show="same==1||chk==1">
+                 <button type="button" class="close" data-dismiss="modal" ng-click="closeMessage()" >
+                    <span aria-hidden="true">&times;</span>
+                 </button>
+                 <div class="messageDiv">{{displayMessage}}</div>
+                 <div class="okbutton" ng-click="closeMessage()">OK</div>
+            </div>   
+     -->
+                <ul class="nav nav-pills">
+                    <li ><a href="#">Home</a>
+                    </li>
+                    <li><a href="#/page2" >Car Details</a>
+                    </li>
+                   <!--  <li><a href="#/page3" >Overview</a>
+                    </li>
+                     <li><a href="#/page4">Integrate View</a>
+                    </li >
+                    <li><a href="#/page5">1</a>
+                    </li >
+                    <li><a href="#/page6">2</a>
+                    </li >
+                    <li><a href="#/page7">New</a>
+                    </li >
+                    <li><a href="#/page8">Directives</a>
+                    </li > -->
+                </ul>
+
+            </div>
+        </div>
+        <div class="row" id="below">
+            <!--for the lower part-->
+            <div class="col-md-3">
+                <label class="addcars">Add New Cars</label>
+                <!-- label to add cars-->
+                <div class="input-group" >
+                    <input type="text" placeholder="Enter a new Car"  ng-trim="false" class="form-control" ng-model="newcar" ng-enter="add()" > <span class="input-group-btn" >
+              <input type="submit" class="btn " value="ADD" ng-click="add()"  style="color:#000000;background-color:#777;" ng-disabled="!(!!newcar)" > <!--add button to ad groups -->
+            </span>
+            </div>
+
+
+                 
+                <div class="listofcars">Cars Added</div>
+                <div style="overflow:hidden"class="scroll1">
+                <div style="overflow:scroll; background-image:url(../images/wood.jpg);" class="scroll" >
+            
+                <!--heading-->
+               <!--  <div pagination style="width:270px;height:450px; background-image:url(../images/wood.jpg);" boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"> -->
+
+                <div ng-repeat="car in cars" ng-click="selectPhase(car)" class="carsadded"  >
+                    <div class="carnames">{{car.name|uppercase}}</div>
+                    <div class="phase"> <span class="label label-default">{{car.PresentPhase}}</span></div>
+                </div>
+                
+                </div>                                                  <!-- for overflow -->
+                </div>
+                </div>                                                 <!--to close the col with 3 cols created above for cars added-->
+          
+            <div class="carouselouter">
+                <div id="myCarousel" class="carousel slide" q>
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner" >
+                        <div class="item active">
+                            <img src="../images/newcar1.jpg" alt="First slide" width="540px" height="300px">
+                            <!-- <div class="imageoverlap1" alt="First slide" ></div> -->
+                        </div>
+                        <div class="item" >
+                            
+                            <img src="../images/newcar2.jpg" alt="Second slide" width="540px" height="300px" >
+                            
+                           <!--  <div class="imageoverlap2"  alt="Second slide" ></div> -->
+                        </div>
+                        <div class="item">
+                            <img src="../images/newcar3.jpg" alt="Third slide" width="540px" height="300px">
+                           <!--  <div class="imageoverlap3"  alt="Third slide" ></div> -->
+                        </div>
+                        <div class="item">
+                            <img src="../images/newcar4.jpg" alt="Fourth slide" width="540px" height="300px">
+                           <!--  <div class="imageoverlap3"  alt="Third slide" ></div> -->
+                        </div>
+                    </div>
+                    <!-- Carousel nav --> 
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+
+                </div>
+
+
+            <div class="searchdiv">
+                <!--for search-->
+                <div class="form-group" id="search">
+                    <input type="text" placeholder="search for a car" class="form-control"  auto-complete ui-items="names" ng-model="selected1"  ng-enter="search()">
+                    <span class="glyphicon glyphicon-search glypg1"></span>
+                    <span class="ui-autocomplete"></span>
+                     </div>
+                    
+                    <div class="carimage"><img ng-src="{{imgsrc}}" width="100%" height="100%"class="ng-scope" ng-show="check==1&&phchk!=1"></div>
+                    <div class="displaycardetails" ng-include="'views/carinfo.html'" ng-show="check==1&&phchk!=1"> </div>
+            
+                
+            </div>
+    <div class="divforfooter" ><a href="#">Home</a> | <a href="#/page2">CarDetails</a> </div>
+        
+        </div><!--close the below div-->
+
+
+<!-- <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button> -->
+
+
+
+</div>    <!--close the container-->
+            
+    
+</div><!--close the page-->
+<div  class="message" ng-show="same==1||chk==1">
+                 <button type="button" class="close" data-dismiss="modal" ng-click="closeMessage()" >
+                    <span aria-hidden="true">&times;</span>
+                 </button>
+                 <div class="messageDiv">{{displayMessage}}</div>
+                 <div class="okbutton" ng-click="closeMessage()">OK</div>
+            </div> 

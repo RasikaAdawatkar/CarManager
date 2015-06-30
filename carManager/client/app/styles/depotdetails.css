@@ -1,0 +1,23 @@
+.line1fordepot{
+height: 30%;
+width: 100%;
+background-color: #f2f2f2;
+padding: 10px;
+padding-left: 48px;
+}
+
+.line2fordepot{
+	height: 13%;
+width: 100%;
+background-color: #f2f2f2;
+padding-left: 48px;
+}
+.depotDataDiv2{
+height: 26%;
+width: 100%;
+background-color: #f2f2f2;
+margin-top: 2px;
+padding: 19px;
+padding-left: 0px;
+padding-top: 0px;
+}

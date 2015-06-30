@@ -1,0 +1,201 @@
+.divouter{
+background-color: #777;
+height: 890px;
+
+position: relative;
+}
+.divinner{
+	background-color:#000000;
+	height: 100%;
+width: 98%;
+}
+.top1{
+	background-color:#213367;
+	height: 10%;
+width: 102.8%;
+	margin-left: -15px;
+}
+.top2{
+	background-color:#ffffff;
+	height: 8%;
+width: 102.8%;
+margin-left: -15px;
+}
+.top3{
+background-color: #fff;
+height: 87%;
+width: 102.8%;
+margin-left: -15px;
+}
+.lefthalf{
+background-color: #ffffff;
+height: 93%;
+width: 43.6%;
+float: left;
+margin-left: 45px;
+margin-top: 6px;
+border: 1px solid #777;
+}
+.righthalf{
+background-color: #ffffff;
+height: 93%;
+width: 43.6%;
+float: right;
+margin-top: 6px;
+margin-right: 4%;
+border: 1px solid #777;
+
+}
+/*.lefttop
+{
+	background-color:#73A7D7;
+height: 8%;
+width: 100%;
+
+opacity:0.4;
+}*/
+.navdiv{
+background-color:#fff;
+height: 9.3%;
+width: 103.3%;
+margin-left: -15px;
+}
+.navigation{
+	height: 79%;
+width: 28%;
+	float:right;
+	margin-right: -3%;
+margin-top: 1%;
+}
+.btn1pg4{
+	color: #fff;
+background-color: #138CCD;
+border-color: #138CCD;
+height: 35%;
+width: 9%;
+padding: 2px;
+float: right;
+margin-right: 50px;
+margin-top: 26px;
+font-size: 12px;
+}
+.btn2pg4{
+background-color: #138CCD;
+border-color: #138CCD;
+height: 37%;
+width: 3%;
+float: right;
+margin-right: 13px;
+margin-top: 26px;
+}
+.inputs{
+	height: 86%;
+width: 43%;
+background-color: #fff;
+float: right;
+margin-right: 66px;
+margin-top:5px;
+}
+.firstInput{
+height: 86%;
+width: 28%;
+background-color: #fff;
+padding-top: 24px;
+padding-left: 17px;
+float: left;
+/*margin-left: 11px;*/
+
+}
+.partition1
+{
+	height: 65%;
+width: 0.2%;
+background-color: #777;
+float: left;
+margin-left: 10px;
+margin-top: 15px;
+}
+.circle1
+{
+	width: 19%;
+height: 72%;
+	background: #C1272D;
+	-moz-border-radius: 50%;
+	-webkit-border-radius:57%;
+	border-radius: -2%;
+	float:left;
+	margin-right: 7px;
+	margin-left: 5px;
+
+}
+.circle2{
+	background: #3FA9F5;
+}
+.circle3{
+	background: #999999;
+}
+.chkbx{
+	margin-right:6px;
+	float:left;
+	/*width: 16px;
+height: 15px;*/
+}
+.dataDiv{
+	/*background-color: #000000;*/
+height: 32.4%;
+width: 100%;
+float: left;
+}
+#dataCarousel{
+	margin-top: 15px;
+width: 92%;
+margin-left: 45px;
+}
+.leftShift{
+	margin-top:20px;
+}
+.rightShift{
+	margin-top: 27px;
+
+}
+.includeChart{
+background-color: #fff;
+height: 91.9%;
+}
+/*.carousel-inner .item{
+height: 300px ;
+width: 540px;
+margin-top: -228px !important;
+margin-left: -133px !important;
+}*/
+.carousel-indicators {
+bottom: 15px;
+left: 275px;
+
+}
+/*.carousel-indicators .active {
+width: 12px;
+height: 12px;
+margin: 0;
+background-color: #000;
+}
+*/
+.divouterbottom{
+background-color: #000;
+height: 340px;
+margin-left: -41px;
+margin-top: -44px;
+}
+.divinnerbottom{
+background-color:#777;
+height: 100%;
+width: 98%;
+}
+.testview{
+	height:100px;
+	width:100px;
+}
+.includeMap{
+background-color: #fff;
+height: 100%;
+}

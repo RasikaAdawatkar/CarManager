@@ -1,0 +1,24 @@
+       { "seriesList": [{
+            "name": "John",
+            "data": [0, 3.8, 0, 6.7, 9674.1],
+           "color":"#53D4E5"
+             
+        }, {
+            "name": "Jane",
+            "data": [0, 3.4, 0, 6.7, 0],
+            "color":"#AA4C0C"
+        }, {
+            "name": "Joe",
+            "data": [1492.2, 0, 8161.3, 0, 0],
+            "color":"#0071BC"
+
+        },
+            {
+             "name":" " ,
+             "data": [0, 1492.2, 1499.4, 9660.7, 0],
+             "enableMouseTracking": false,
+             "color":"#f2f2f2"
+          }]
+    }
+
+ 
